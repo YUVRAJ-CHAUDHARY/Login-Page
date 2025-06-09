@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Login India</h1>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn">Home</button>
+                <button class="nav-btn">About</button>
+                <button class="nav-btn">Services</button>
+                <button class="nav-btn">Contact</button>
+            </nav>
+            <div class="register-button">
+                <a href="/signin" class="Sign">Sign In</a>
+                <a href="/register" class="Regis">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="page1">
+        <div class="login-container">
+            <h2 class="login-title">Welcome Back!</h2>
+            <p class="login-subtitle">Sign in to your account</p>
+            <form action="#" method="POST">
+                <label for="email" class="label-text">Email</label>
+                <input type="email" id="email" placeholder="Email" required />
+
+                <label for="password" class="label-text">Password</label>
+                <input type="password" id="password" placeholder="Password" required />
+
+                <button class="login-btn primary-login-btn" type="submit">Login</button>
+            </form>
+
+            <div class="continue-divider">
+                <span>Or continue with</span>
+            </div>
+
+            <div class="social-login-buttons">
+                <button class="login-btn social-btn mobile">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Mobile</span>
+                </button>
+                <button class="login-btn social-btn gmail">
+                    <i class="fa-brands fa-google"></i>
+                    <span>Google</span>
+                </button>
+                <button class="login-btn social-btn linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="info-strip">
+            <p>📞 Call us&nbsp;: +&nbsp;91-9876543210 | <i class="fa-regular fa-envelope"></i> Email&nbsp;: support@pagaarindia.com</p>
+        </div>
+
+        <div class="footer-content">
+            <p>
+                <h4>&copy; 2025 Pagaar India. All rights reserved.</h4>
+            </p>
+            <p>
+                <h4>Designed and Developed by YUVRAJ CHAUDHARY</h4>
+            </p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.querySelector('.site-header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('transparent-header');
+            } else {
+                header.classList.remove('transparent-header');
+            }
+        });
+    </script>
+</body>
+
+</html>
