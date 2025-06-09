@@ -1,6 +1,6 @@
 # Login-Page
-🌐 Responsive Login Page – Pagaar India
-This project is a fully responsive, modern login page created for Pagaar India. It includes a professional UI with multiple sign-in options (Email, Mobile, Google, LinkedIn), animated backgrounds, and a sticky navigation header. Designed with clean HTML5 and modern CSS3 (including flexbox, gradients, animations, and media queries), this page delivers a visually appealing and user-friendly experience across all devices.
+🌐 Responsive Login Page
+This project is a fully responsive, modern login page created for Login India. It includes a professional UI with multiple sign-in options (Email, Mobile, Google, LinkedIn), animated backgrounds, and a sticky navigation header. Designed with clean HTML5 and modern CSS3 (including flexbox, gradients, animations, and media queries), this page delivers a visually appealing and user-friendly experience across all devices.
 
 🚀 Features
 Responsive design for mobile, tablet, and desktop
@@ -34,9 +34,6 @@ Media queries for responsiveness
 
 Font Awesome for icons
 
-📸 Screenshots
-You can add screenshots here for better presentation.
-
 📂 Folder Structure
 css
 Copy
@@ -46,5 +43,5 @@ Edit
 └── style.css        # All custom styles
 👨‍💻 Developer
 Designed and Developed by Yuvraj Chaudhary
-📧 support@pagaarindia.com
+📧 support@LoginIndia.com
 
